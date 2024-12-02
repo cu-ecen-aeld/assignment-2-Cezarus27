@@ -1,0 +1,6 @@
+$ file build/writer
+build/writer: ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), dynamically linked, interpreter /lib/ld-linux-aarch64.so.1, for GNU/Linux 3.7.0, with debug_info, not stripped
+
+
+$ file -k build/writer
+build/writer: ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV)\012-  (Lepton 2.x), scale 0-0, spot sensor temperature 0.000000, unit celsius, color scheme 0, calibration: offset -170141183460469231731687303715884105728.000000, slope -nan, dynamically linked, interpreter /lib/ld-linux-aarch64.so.1, for GNU/Linux 3.7.0, with debug_info, not stripped\012- data
